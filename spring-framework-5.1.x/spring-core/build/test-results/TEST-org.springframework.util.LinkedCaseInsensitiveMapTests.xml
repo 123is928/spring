@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.LinkedCaseInsensitiveMapTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:40" hostname="XULANLAN" time="0.012">
+<testsuite name="org.springframework.util.LinkedCaseInsensitiveMapTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-08-24T10:32:03" hostname="XULANLAN" time="0.046">
   <properties/>
-  <testcase name="computeIfAbsentWithComputedValue" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.002"/>
-  <testcase name="putAndGet" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.001"/>
+  <testcase name="computeIfAbsentWithComputedValue" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.026"/>
+  <testcase name="putAndGet" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.002"/>
   <testcase name="putWithOverlappingKeys" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.0"/>
-  <testcase name="getOrDefaultWithNullValue" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.001"/>
+  <testcase name="getOrDefaultWithNullValue" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.003"/>
   <testcase name="mapClone" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.001"/>
-  <testcase name="computeIfAbsentWithExistingValue" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.006"/>
-  <testcase name="getOrDefault" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.0"/>
+  <testcase name="computeIfAbsentWithExistingValue" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.002"/>
+  <testcase name="getOrDefault" classname="org.springframework.util.LinkedCaseInsensitiveMapTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

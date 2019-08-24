@@ -78,6 +78,7 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
 	 */
 	public AnnotationConfigApplicationContext() {
 		/**
+		 * AnnotatedBeanDefinition:	加了注解类的描述
 		 * 创建一个读取注解的Bean定义读取器
 		 * 什么事Bean定义? BeanDefinition
 		 */

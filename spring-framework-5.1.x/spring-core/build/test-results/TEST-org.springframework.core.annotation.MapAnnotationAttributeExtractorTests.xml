@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.annotation.MapAnnotationAttributeExtractorTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:12" hostname="XULANLAN" time="0.013">
+<testsuite name="org.springframework.core.annotation.MapAnnotationAttributeExtractorTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-08-24T10:31:14" hostname="XULANLAN" time="0.052">
   <properties/>
-  <testcase name="enrichAndValidateAttributesWithImplicitAliasesAndMinimalAttributes" classname="org.springframework.core.annotation.MapAnnotationAttributeExtractorTests" time="0.006"/>
-  <testcase name="enrichAndValidateAttributesWithImplicitAliases" classname="org.springframework.core.annotation.MapAnnotationAttributeExtractorTests" time="0.003"/>
-  <testcase name="enrichAndValidateAttributesWithSingleElementThatOverridesAnArray" classname="org.springframework.core.annotation.MapAnnotationAttributeExtractorTests" time="0.003"/>
-  <testcase name="getAttributeValueForImplicitAliases" classname="org.springframework.core.annotation.MapAnnotationAttributeExtractorTests" time="0.001"/>
+  <testcase name="enrichAndValidateAttributesWithImplicitAliasesAndMinimalAttributes" classname="org.springframework.core.annotation.MapAnnotationAttributeExtractorTests" time="0.017"/>
+  <testcase name="enrichAndValidateAttributesWithImplicitAliases" classname="org.springframework.core.annotation.MapAnnotationAttributeExtractorTests" time="0.019"/>
+  <testcase name="enrichAndValidateAttributesWithSingleElementThatOverridesAnArray" classname="org.springframework.core.annotation.MapAnnotationAttributeExtractorTests" time="0.014"/>
+  <testcase name="getAttributeValueForImplicitAliases" classname="org.springframework.core.annotation.MapAnnotationAttributeExtractorTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

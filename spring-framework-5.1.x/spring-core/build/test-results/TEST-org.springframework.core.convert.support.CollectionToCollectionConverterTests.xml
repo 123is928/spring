@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.convert.support.CollectionToCollectionConverterTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:17" hostname="XULANLAN" time="0.122">
+<testsuite name="org.springframework.core.convert.support.CollectionToCollectionConverterTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2019-08-24T10:31:23" hostname="XULANLAN" time="0.063">
   <properties/>
-  <testcase name="objectToCollection" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.001"/>
-  <testcase name="collectionToObjectInteraction" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.001"/>
-  <testcase name="listToCollectionNoCopyRequired" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.002"/>
-  <testcase name="mixedInNulls" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.099"/>
+  <testcase name="objectToCollection" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.007"/>
+  <testcase name="collectionToObjectInteraction" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.002"/>
+  <testcase name="listToCollectionNoCopyRequired" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.004"/>
+  <testcase name="mixedInNulls" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.024"/>
   <testcase name="elementTypesNotConvertible" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.001"/>
   <testcase name="emptyListToListDifferentTargetType" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.001"/>
   <testcase name="convertEmptyVector_shouldReturnEmptyArrayList" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.001"/>
-  <testcase name="testStringToEnumSet" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.001"/>
-  <testcase name="convertNonEmptyVector_shouldReturnNonEmptyArrayList" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.0"/>
-  <testcase name="nothingInCommon" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.003"/>
-  <testcase name="stringToCollection" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.002"/>
-  <testcase name="differentImpls" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.0"/>
-  <testcase name="emptyListToList" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.001"/>
-  <testcase name="allNulls" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.001"/>
-  <testcase name="scalarList" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.001"/>
+  <testcase name="testStringToEnumSet" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.003"/>
+  <testcase name="convertNonEmptyVector_shouldReturnNonEmptyArrayList" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.001"/>
+  <testcase name="nothingInCommon" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.001"/>
+  <testcase name="stringToCollection" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.005"/>
+  <testcase name="differentImpls" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.001"/>
+  <testcase name="emptyListToList" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.0"/>
+  <testcase name="allNulls" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.002"/>
+  <testcase name="scalarList" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.003"/>
   <testcase name="testCollectionsEmptyList" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.002"/>
   <testcase name="arrayCollectionToObjectInteraction" classname="org.springframework.core.convert.support.CollectionToCollectionConverterTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

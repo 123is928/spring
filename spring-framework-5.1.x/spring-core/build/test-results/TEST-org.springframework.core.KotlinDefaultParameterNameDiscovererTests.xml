@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.KotlinDefaultParameterNameDiscovererTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:53" hostname="XULANLAN" time="0.008">
+<testsuite name="org.springframework.core.KotlinDefaultParameterNameDiscovererTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-24T10:32:25" hostname="XULANLAN" time="0.024">
   <properties/>
-  <testcase name="getParameterNamesOnEnum" classname="org.springframework.core.KotlinDefaultParameterNameDiscovererTests" time="0.008"/>
+  <testcase name="getParameterNamesOnEnum" classname="org.springframework.core.KotlinDefaultParameterNameDiscovererTests" time="0.024"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

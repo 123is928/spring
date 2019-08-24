@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.tests.AssumeTests" tests="5" skipped="2" failures="0" errors="0" timestamp="2019-08-23T15:10:37" hostname="XULANLAN" time="0.009">
+<testsuite name="org.springframework.tests.AssumeTests" tests="5" skipped="2" failures="0" errors="0" timestamp="2019-08-24T10:31:53" hostname="XULANLAN" time="0.049">
   <properties/>
-  <testcase name="assumeGroupWithBogusActiveTestGroup" classname="org.springframework.tests.AssumeTests" time="0.002"/>
-  <testcase name="assumeGroupWithNoMatchingActiveTestGroup" classname="org.springframework.tests.AssumeTests" time="0.005">
+  <testcase name="assumeGroupWithBogusActiveTestGroup" classname="org.springframework.tests.AssumeTests" time="0.0"/>
+  <testcase name="assumeGroupWithNoMatchingActiveTestGroup" classname="org.springframework.tests.AssumeTests" time="0.022">
     <skipped/>
   </testcase>
-  <testcase name="assumeGroupWithAllMinusBogusActiveTestGroup" classname="org.springframework.tests.AssumeTests" time="0.001"/>
-  <testcase name="assumeGroupWithNoActiveTestGroups" classname="org.springframework.tests.AssumeTests" time="0.001">
+  <testcase name="assumeGroupWithAllMinusBogusActiveTestGroup" classname="org.springframework.tests.AssumeTests" time="0.002"/>
+  <testcase name="assumeGroupWithNoActiveTestGroups" classname="org.springframework.tests.AssumeTests" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="assumeGroupWithMatchingActiveTestGroup" classname="org.springframework.tests.AssumeTests" time="0.0"/>

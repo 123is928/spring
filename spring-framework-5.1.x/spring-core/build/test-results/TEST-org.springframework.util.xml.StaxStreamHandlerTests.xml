@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.xml.StaxStreamHandlerTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:52" hostname="XULANLAN" time="0.988">
+<testsuite name="org.springframework.util.xml.StaxStreamHandlerTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-08-24T10:32:23" hostname="XULANLAN" time="0.718">
   <properties/>
-  <testcase name="noNamespacePrefixesDom" classname="org.springframework.util.xml.StaxStreamHandlerTests" time="0.007"/>
-  <testcase name="noNamespacePrefixes" classname="org.springframework.util.xml.StaxStreamHandlerTests" time="0.349"/>
-  <testcase name="namespacePrefixes" classname="org.springframework.util.xml.StaxStreamHandlerTests" time="0.623"/>
-  <testcase name="namespacePrefixesDom" classname="org.springframework.util.xml.StaxStreamHandlerTests" time="0.008"/>
+  <testcase name="noNamespacePrefixesDom" classname="org.springframework.util.xml.StaxStreamHandlerTests" time="0.013"/>
+  <testcase name="noNamespacePrefixes" classname="org.springframework.util.xml.StaxStreamHandlerTests" time="0.354"/>
+  <testcase name="namespacePrefixes" classname="org.springframework.util.xml.StaxStreamHandlerTests" time="0.341"/>
+  <testcase name="namespacePrefixesDom" classname="org.springframework.util.xml.StaxStreamHandlerTests" time="0.009"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

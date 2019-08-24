@@ -1,5 +1,6 @@
 package com.chenling.test;
 
+import com.chenling.app.AppConfig;
 import com.chenling.service.UserService;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -14,7 +15,9 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class MyTest {
 	@Test
 	public void fun(){
-		AnnotationConfigApplicationContext annotationConfigApplicationContext = new AnnotationConfigApplicationContext(UserService.class);
+		AnnotationConfigApplicationContext annotationConfigApplicationContext =
+				new AnnotationConfigApplicationContext(AppConfig.class);
+		annotationConfigApplicationContext.refresh();
 		UserService service = annotationConfigApplicationContext.getBean(UserService.class);
 		service.query();
 	}

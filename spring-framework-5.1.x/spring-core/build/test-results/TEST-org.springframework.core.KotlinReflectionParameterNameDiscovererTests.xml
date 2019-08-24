@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.KotlinReflectionParameterNameDiscovererTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:54" hostname="XULANLAN" time="0.028">
+<testsuite name="org.springframework.core.KotlinReflectionParameterNameDiscovererTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-08-24T10:32:28" hostname="XULANLAN" time="0.123">
   <properties/>
-  <testcase name="getParameterNamesOnInterface" classname="org.springframework.core.KotlinReflectionParameterNameDiscovererTests" time="0.009"/>
-  <testcase name="getParameterNamesOnExtensionMethod" classname="org.springframework.core.KotlinReflectionParameterNameDiscovererTests" time="0.015"/>
-  <testcase name="getParameterNamesOnClass" classname="org.springframework.core.KotlinReflectionParameterNameDiscovererTests" time="0.003"/>
+  <testcase name="getParameterNamesOnInterface" classname="org.springframework.core.KotlinReflectionParameterNameDiscovererTests" time="0.036"/>
+  <testcase name="getParameterNamesOnExtensionMethod" classname="org.springframework.core.KotlinReflectionParameterNameDiscovererTests" time="0.072"/>
+  <testcase name="getParameterNamesOnClass" classname="org.springframework.core.KotlinReflectionParameterNameDiscovererTests" time="0.011"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

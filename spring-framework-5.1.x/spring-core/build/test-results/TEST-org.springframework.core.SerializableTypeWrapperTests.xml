@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.SerializableTypeWrapperTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:35" hostname="XULANLAN" time="0.082">
+<testsuite name="org.springframework.core.SerializableTypeWrapperTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-08-24T10:31:47" hostname="XULANLAN" time="0.138">
   <properties/>
-  <testcase name="typeVariableType" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.019"/>
-  <testcase name="wildcardType" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.007"/>
-  <testcase name="forConstructor" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.03"/>
-  <testcase name="forMethodParameter" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.015"/>
+  <testcase name="typeVariableType" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.044"/>
+  <testcase name="wildcardType" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.005"/>
+  <testcase name="forConstructor" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.021"/>
+  <testcase name="forMethodParameter" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.062"/>
   <testcase name="classType" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.0"/>
   <testcase name="forField" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.001"/>
   <testcase name="parameterizedType" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.002"/>
-  <testcase name="genericArrayType" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.005"/>
+  <testcase name="genericArrayType" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.PatternMatchUtilsTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:41" hostname="XULANLAN" time="0.028">
+<testsuite name="org.springframework.util.PatternMatchUtilsTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-08-24T10:32:05" hostname="XULANLAN" time="0.041">
   <properties/>
-  <testcase name="testEndsWith" classname="org.springframework.util.PatternMatchUtilsTests" time="0.022"/>
+  <testcase name="testEndsWith" classname="org.springframework.util.PatternMatchUtilsTests" time="0.033"/>
   <testcase name="testTrivial" classname="org.springframework.util.PatternMatchUtilsTests" time="0.0"/>
   <testcase name="testBetween" classname="org.springframework.util.PatternMatchUtilsTests" time="0.0"/>
-  <testcase name="testStartsEndsBetween" classname="org.springframework.util.PatternMatchUtilsTests" time="0.001"/>
-  <testcase name="testPatternVariants" classname="org.springframework.util.PatternMatchUtilsTests" time="0.0"/>
-  <testcase name="testRidiculous" classname="org.springframework.util.PatternMatchUtilsTests" time="0.0"/>
-  <testcase name="testStartsEnds" classname="org.springframework.util.PatternMatchUtilsTests" time="0.0"/>
-  <testcase name="testStartsWith" classname="org.springframework.util.PatternMatchUtilsTests" time="0.001"/>
+  <testcase name="testStartsEndsBetween" classname="org.springframework.util.PatternMatchUtilsTests" time="0.0"/>
+  <testcase name="testPatternVariants" classname="org.springframework.util.PatternMatchUtilsTests" time="0.001"/>
+  <testcase name="testRidiculous" classname="org.springframework.util.PatternMatchUtilsTests" time="0.001"/>
+  <testcase name="testStartsEnds" classname="org.springframework.util.PatternMatchUtilsTests" time="0.001"/>
+  <testcase name="testStartsWith" classname="org.springframework.util.PatternMatchUtilsTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

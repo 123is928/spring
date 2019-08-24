@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.FixedBackOffTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:40" hostname="XULANLAN" time="0.031">
+<testsuite name="org.springframework.util.FixedBackOffTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-08-24T10:32:03" hostname="XULANLAN" time="0.013">
   <properties/>
-  <testcase name="defaultInstance" classname="org.springframework.util.FixedBackOffTests" time="0.026"/>
+  <testcase name="defaultInstance" classname="org.springframework.util.FixedBackOffTests" time="0.009"/>
   <testcase name="startReturnDifferentInstances" classname="org.springframework.util.FixedBackOffTests" time="0.001"/>
-  <testcase name="maxAttemptsReached" classname="org.springframework.util.FixedBackOffTests" time="0.001"/>
+  <testcase name="maxAttemptsReached" classname="org.springframework.util.FixedBackOffTests" time="0.0"/>
   <testcase name="toStringContent" classname="org.springframework.util.FixedBackOffTests" time="0.001"/>
   <testcase name="liveUpdate" classname="org.springframework.util.FixedBackOffTests" time="0.0"/>
   <testcase name="noAttemptAtAll" classname="org.springframework.util.FixedBackOffTests" time="0.0"/>

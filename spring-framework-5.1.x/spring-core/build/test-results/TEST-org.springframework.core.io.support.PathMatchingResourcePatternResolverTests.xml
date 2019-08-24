@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" tests="7" skipped="1" failures="0" errors="0" timestamp="2019-08-23T15:10:29" hostname="XULANLAN" time="3.825">
+<testsuite name="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" tests="7" skipped="1" failures="0" errors="0" timestamp="2019-08-24T10:31:38" hostname="XULANLAN" time="0.946">
   <properties/>
-  <testcase name="rootPatternRetrievalInJarFiles" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="3.777"/>
-  <testcase name="singleResourceInJar" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.004"/>
-  <testcase name="invalidPrefixWithPatternElementInIt" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.016"/>
-  <testcase name="singleResourceOnFileSystem" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.004"/>
+  <testcase name="rootPatternRetrievalInJarFiles" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.901"/>
+  <testcase name="singleResourceInJar" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.002"/>
+  <testcase name="invalidPrefixWithPatternElementInIt" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.001"/>
+  <testcase name="singleResourceOnFileSystem" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.002"/>
   <testcase name="classpathStarWithPatternOnFileSystem" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="classpathStarWithPatternInJar" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.006"/>
-  <testcase name="classpathWithPatternInJar" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.009"/>
+  <testcase name="classpathStarWithPatternInJar" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.003"/>
+  <testcase name="classpathWithPatternInJar" classname="org.springframework.core.io.support.PathMatchingResourcePatternResolverTests" time="0.03"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.PropertiesPersisterTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:41" hostname="XULANLAN" time="0.006">
+<testsuite name="org.springframework.util.PropertiesPersisterTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-08-24T10:32:05" hostname="XULANLAN" time="0.006">
   <properties/>
   <testcase name="propertiesPersisterWithReaderAndWhitespace" classname="org.springframework.util.PropertiesPersisterTests" time="0.001"/>
-  <testcase name="propertiesPersister" classname="org.springframework.util.PropertiesPersisterTests" time="0.0"/>
+  <testcase name="propertiesPersister" classname="org.springframework.util.PropertiesPersisterTests" time="0.001"/>
   <testcase name="propertiesPersisterWithEmptyValue" classname="org.springframework.util.PropertiesPersisterTests" time="0.001"/>
-  <testcase name="propertiesPersisterWithReaderAndHeader" classname="org.springframework.util.PropertiesPersisterTests" time="0.001"/>
-  <testcase name="propertiesPersisterWithHeader" classname="org.springframework.util.PropertiesPersisterTests" time="0.001"/>
+  <testcase name="propertiesPersisterWithReaderAndHeader" classname="org.springframework.util.PropertiesPersisterTests" time="0.0"/>
+  <testcase name="propertiesPersisterWithHeader" classname="org.springframework.util.PropertiesPersisterTests" time="0.0"/>
   <testcase name="propertiesPersisterWithWhitespace" classname="org.springframework.util.PropertiesPersisterTests" time="0.001"/>
   <testcase name="propertiesPersisterWithReader" classname="org.springframework.util.PropertiesPersisterTests" time="0.0"/>
   <testcase name="propertiesPersisterWithReaderAndEmptyValue" classname="org.springframework.util.PropertiesPersisterTests" time="0.001"/>

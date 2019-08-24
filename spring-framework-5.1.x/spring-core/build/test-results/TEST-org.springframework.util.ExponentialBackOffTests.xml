@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.ExponentialBackOffTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:40" hostname="XULANLAN" time="0.042">
+<testsuite name="org.springframework.util.ExponentialBackOffTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-08-24T10:32:02" hostname="XULANLAN" time="0.233">
   <properties/>
-  <testcase name="maxIntervalReachedImmediately" classname="org.springframework.util.ExponentialBackOffTests" time="0.041"/>
-  <testcase name="defaultInstance" classname="org.springframework.util.ExponentialBackOffTests" time="0.0"/>
-  <testcase name="startReturnDifferentInstances" classname="org.springframework.util.ExponentialBackOffTests" time="0.0"/>
+  <testcase name="maxIntervalReachedImmediately" classname="org.springframework.util.ExponentialBackOffTests" time="0.203"/>
+  <testcase name="defaultInstance" classname="org.springframework.util.ExponentialBackOffTests" time="0.002"/>
+  <testcase name="startReturnDifferentInstances" classname="org.springframework.util.ExponentialBackOffTests" time="0.012"/>
   <testcase name="invalidInterval" classname="org.springframework.util.ExponentialBackOffTests" time="0.001"/>
   <testcase name="maxAttemptsReached" classname="org.springframework.util.ExponentialBackOffTests" time="0.0"/>
-  <testcase name="toStringContent" classname="org.springframework.util.ExponentialBackOffTests" time="0.0"/>
+  <testcase name="toStringContent" classname="org.springframework.util.ExponentialBackOffTests" time="0.001"/>
   <testcase name="simpleIncrease" classname="org.springframework.util.ExponentialBackOffTests" time="0.0"/>
-  <testcase name="fixedIncrease" classname="org.springframework.util.ExponentialBackOffTests" time="0.0"/>
+  <testcase name="fixedIncrease" classname="org.springframework.util.ExponentialBackOffTests" time="0.001"/>
   <testcase name="maxIntervalReached" classname="org.springframework.util.ExponentialBackOffTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

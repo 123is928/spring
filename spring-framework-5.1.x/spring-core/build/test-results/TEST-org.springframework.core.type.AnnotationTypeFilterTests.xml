@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.type.AnnotationTypeFilterTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:36" hostname="XULANLAN" time="0.17">
+<testsuite name="org.springframework.core.type.AnnotationTypeFilterTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-08-24T10:31:50" hostname="XULANLAN" time="0.146">
   <properties/>
-  <testcase name="testDirectAnnotationMatch" classname="org.springframework.core.type.AnnotationTypeFilterTests" time="0.08"/>
-  <testcase name="testInheritedAnnotationFromBaseClassDoesMatch" classname="org.springframework.core.type.AnnotationTypeFilterTests" time="0.014"/>
-  <testcase name="testNonAnnotatedClassDoesntMatch" classname="org.springframework.core.type.AnnotationTypeFilterTests" time="0.006"/>
-  <testcase name="testInheritedAnnotationFromInterfaceDoesNotMatch" classname="org.springframework.core.type.AnnotationTypeFilterTests" time="0.018"/>
-  <testcase name="testNonInheritedAnnotationDoesNotMatch" classname="org.springframework.core.type.AnnotationTypeFilterTests" time="0.037"/>
-  <testcase name="testMatchesInterfacesIfConfigured" classname="org.springframework.core.type.AnnotationTypeFilterTests" time="0.015"/>
+  <testcase name="testDirectAnnotationMatch" classname="org.springframework.core.type.AnnotationTypeFilterTests" time="0.065"/>
+  <testcase name="testInheritedAnnotationFromBaseClassDoesMatch" classname="org.springframework.core.type.AnnotationTypeFilterTests" time="0.007"/>
+  <testcase name="testNonAnnotatedClassDoesntMatch" classname="org.springframework.core.type.AnnotationTypeFilterTests" time="0.003"/>
+  <testcase name="testInheritedAnnotationFromInterfaceDoesNotMatch" classname="org.springframework.core.type.AnnotationTypeFilterTests" time="0.01"/>
+  <testcase name="testNonInheritedAnnotationDoesNotMatch" classname="org.springframework.core.type.AnnotationTypeFilterTests" time="0.051"/>
+  <testcase name="testMatchesInterfacesIfConfigured" classname="org.springframework.core.type.AnnotationTypeFilterTests" time="0.009"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.tests.TestGroupTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:38" hostname="XULANLAN" time="0.015">
+<testsuite name="org.springframework.tests.TestGroupTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-08-24T10:31:53" hostname="XULANLAN" time="0.298">
   <properties/>
   <testcase name="parseNull" classname="org.springframework.tests.TestGroupTests" time="0.0"/>
-  <testcase name="parseInMixedCase" classname="org.springframework.tests.TestGroupTests" time="0.003"/>
-  <testcase name="parseMissing" classname="org.springframework.tests.TestGroupTests" time="0.002"/>
-  <testcase name="parseAllExceptMissing" classname="org.springframework.tests.TestGroupTests" time="0.0"/>
-  <testcase name="parseEmptyString" classname="org.springframework.tests.TestGroupTests" time="0.0"/>
+  <testcase name="parseInMixedCase" classname="org.springframework.tests.TestGroupTests" time="0.004"/>
+  <testcase name="parseMissing" classname="org.springframework.tests.TestGroupTests" time="0.001"/>
+  <testcase name="parseAllExceptMissing" classname="org.springframework.tests.TestGroupTests" time="0.001"/>
+  <testcase name="parseEmptyString" classname="org.springframework.tests.TestGroupTests" time="0.001"/>
   <testcase name="parseAll" classname="org.springframework.tests.TestGroupTests" time="0.0"/>
-  <testcase name="parseWithSpaces" classname="org.springframework.tests.TestGroupTests" time="0.001"/>
-  <testcase name="parseBlankString" classname="org.springframework.tests.TestGroupTests" time="0.0"/>
-  <testcase name="parseAllExceptPerformance" classname="org.springframework.tests.TestGroupTests" time="0.005"/>
+  <testcase name="parseWithSpaces" classname="org.springframework.tests.TestGroupTests" time="0.119"/>
+  <testcase name="parseBlankString" classname="org.springframework.tests.TestGroupTests" time="0.001"/>
+  <testcase name="parseAllExceptPerformance" classname="org.springframework.tests.TestGroupTests" time="0.059"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

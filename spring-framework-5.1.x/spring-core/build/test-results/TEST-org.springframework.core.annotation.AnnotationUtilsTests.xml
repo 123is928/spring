@@ -1,108 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.annotation.AnnotationUtilsTests" tests="102" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:12" hostname="XULANLAN" time="0.413">
+<testsuite name="org.springframework.core.annotation.AnnotationUtilsTests" tests="102" skipped="0" failures="0" errors="0" timestamp="2019-08-24T10:31:13" hostname="XULANLAN" time="1.053">
   <properties/>
-  <testcase name="getRepeatableAnnotationsDeclaredOnMethod" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.007"/>
-  <testcase name="synthesizeAlreadySynthesizedAnnotation" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.0"/>
-  <testcase name="getRepeatableAnnotationsDeclaredOnSuperclass" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.005"/>
-  <testcase name="synthesizeAnnotationWithAttributeAliasWithoutMirroredAliasFor" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
+  <testcase name="getRepeatableAnnotationsDeclaredOnMethod" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.009"/>
+  <testcase name="synthesizeAlreadySynthesizedAnnotation" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
+  <testcase name="getRepeatableAnnotationsDeclaredOnSuperclass" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.006"/>
+  <testcase name="synthesizeAnnotationWithAttributeAliasWithoutMirroredAliasFor" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.004"/>
   <testcase name="synthesizeAnnotationWithAttributeAliasesWithDifferentValues" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
-  <testcase name="getRepeatableAnnotationsDeclaredOnClass" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.004"/>
-  <testcase name="isAnnotationInheritedForAllScenarios" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.012"/>
+  <testcase name="getRepeatableAnnotationsDeclaredOnClass" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
+  <testcase name="isAnnotationInheritedForAllScenarios" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.111"/>
   <testcase name="synthesizeAnnotationWithImplicitAliasesWithImpliedAliasNamesOmitted" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.004"/>
   <testcase name="synthesizeAnnotationWhereAliasForIsMissingAttributeDeclaration" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
-  <testcase name="findMethodAnnotationOnRootButOverridden" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.004"/>
-  <testcase name="getAttributeAliasNamesFromComposedAnnotationWithTransitiveImplicitAliasesWithImpliedAliasNamesOmitted" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
-  <testcase name="synthesizeAnnotationWithoutAttributeAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
-  <testcase name="findRepeatableAnnotationOnComposedAnnotation" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.0"/>
-  <testcase name="synthesizeAnnotationFromMapWithNestedArrayOfMaps" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.006"/>
-  <testcase name="getAnnotationAttributesWithAttributeAliasesWithDifferentValues" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
-  <testcase name="getAnnotationAttributesWithNestedAnnotations" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
-  <testcase name="synthesizeAnnotationWithImplicitAliasesWithMissingDefaultValues" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.004"/>
-  <testcase name="findClassAnnotationOnMetaCycleAnnotatedClassWithMissingTargetMetaAnnotation" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.009"/>
-  <testcase name="synthesizeAnnotationWithAttributeAliasesInNestedAnnotations" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.008"/>
-  <testcase name="isAnnotationDeclaredLocallyForAllScenarios" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.0"/>
-  <testcase name="synthesizeAnnotationFromDefaultsWithoutAttributeAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
-  <testcase name="getRepeatableAnnotationsDeclaredOnClassAndSuperclass" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.004"/>
-  <testcase name="getAnnotationAttributesWithAttributeAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
-  <testcase name="getRepeatableAnnotationsDeclaredOnClassWithAttributeAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
-  <testcase name="findClassAnnotationFavorsMoreLocallyDeclaredComposedAnnotationsOverInheritedAnnotations" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.008"/>
-  <testcase name="getAttributeAliasNamesFromComposedAnnotationWithTransitiveImplicitAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.008"/>
-  <testcase name="synthesizeAnnotationWithAttributeAliasForWithMissingDefaultValues" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.005"/>
-  <testcase name="findMethodAnnotationWithMetaMetaAnnotationOnLeaf" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.008"/>
-  <testcase name="findClassAnnotationOnAnnotatedClassWithMissingTargetMetaAnnotation" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.008"/>
-  <testcase name="synthesizeAnnotationFromMapWithAttributeOfIncorrectType" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.005"/>
-  <testcase name="synthesizeAnnotationFromAnnotationAttributesWithoutAttributeAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.005"/>
+  <testcase name="findMethodAnnotationOnRootButOverridden" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.04"/>
+  <testcase name="getAttributeAliasNamesFromComposedAnnotationWithTransitiveImplicitAliasesWithImpliedAliasNamesOmitted" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.005"/>
+  <testcase name="synthesizeAnnotationWithoutAttributeAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.006"/>
+  <testcase name="findRepeatableAnnotationOnComposedAnnotation" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
+  <testcase name="synthesizeAnnotationFromMapWithNestedArrayOfMaps" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.013"/>
+  <testcase name="getAnnotationAttributesWithAttributeAliasesWithDifferentValues" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
+  <testcase name="getAnnotationAttributesWithNestedAnnotations" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
+  <testcase name="synthesizeAnnotationWithImplicitAliasesWithMissingDefaultValues" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
+  <testcase name="findClassAnnotationOnMetaCycleAnnotatedClassWithMissingTargetMetaAnnotation" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.037"/>
+  <testcase name="synthesizeAnnotationWithAttributeAliasesInNestedAnnotations" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.011"/>
+  <testcase name="isAnnotationDeclaredLocallyForAllScenarios" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
+  <testcase name="synthesizeAnnotationFromDefaultsWithoutAttributeAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.009"/>
+  <testcase name="getRepeatableAnnotationsDeclaredOnClassAndSuperclass" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.008"/>
+  <testcase name="getAnnotationAttributesWithAttributeAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
+  <testcase name="getRepeatableAnnotationsDeclaredOnClassWithAttributeAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.005"/>
+  <testcase name="findClassAnnotationFavorsMoreLocallyDeclaredComposedAnnotationsOverInheritedAnnotations" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.066"/>
+  <testcase name="getAttributeAliasNamesFromComposedAnnotationWithTransitiveImplicitAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.007"/>
+  <testcase name="synthesizeAnnotationWithAttributeAliasForWithMissingDefaultValues" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.004"/>
+  <testcase name="findMethodAnnotationWithMetaMetaAnnotationOnLeaf" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.066"/>
+  <testcase name="findClassAnnotationOnAnnotatedClassWithMissingTargetMetaAnnotation" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.021"/>
+  <testcase name="synthesizeAnnotationFromMapWithAttributeOfIncorrectType" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.019"/>
+  <testcase name="synthesizeAnnotationFromAnnotationAttributesWithoutAttributeAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
   <testcase name="synthesizeAnnotationFromMapWithMissingAttributeValue" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
   <testcase name="getDefaultValueFromAnnotationType" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.0"/>
   <testcase name="findClassAnnotationOnSubNonInheritedAnnotationInterface" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.0"/>
-  <testcase name="synthesizeAnnotationWithImplicitAliasesForAliasPair" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.004"/>
+  <testcase name="synthesizeAnnotationWithImplicitAliasesForAliasPair" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.007"/>
   <testcase name="synthesizeAnnotationFromMapWithMinimalAttributesWithAttributeAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.0"/>
-  <testcase name="getDeclaredRepeatableAnnotationsDeclaredOnClass" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.004"/>
-  <testcase name="synthesizeAnnotationFromMapWithNullAttributeValue" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.002"/>
+  <testcase name="getDeclaredRepeatableAnnotationsDeclaredOnClass" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
+  <testcase name="synthesizeAnnotationFromMapWithNullAttributeValue" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
   <testcase name="getAttributeOverrideNameFromWrongTargetAnnotation" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.002"/>
-  <testcase name="findMethodAnnotationNotAnnotated" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
-  <testcase name="getAttributeAliasNamesFromComposedAnnotationWithImplicitAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
-  <testcase name="getDefaultValueFromNonPublicAnnotation" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.005"/>
-  <testcase name="synthesizeAnnotationWithArrayOfAnnotations" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.007"/>
+  <testcase name="findMethodAnnotationNotAnnotated" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.0"/>
+  <testcase name="getAttributeAliasNamesFromComposedAnnotationWithImplicitAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.002"/>
+  <testcase name="getDefaultValueFromNonPublicAnnotation" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.036"/>
+  <testcase name="synthesizeAnnotationWithArrayOfAnnotations" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
   <testcase name="findClassAnnotationOnSubInheritedAnnotationInterface" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.0"/>
   <testcase name="findAnnotationDeclaringClassForAllScenarios" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.0"/>
-  <testcase name="synthesizeAnnotationWithAttributeAliasForMetaAnnotationThatIsNotMetaPresent" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.015"/>
-  <testcase name="synthesizeAnnotationFromMapWithoutAttributeAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
+  <testcase name="synthesizeAnnotationWithAttributeAliasForMetaAnnotationThatIsNotMetaPresent" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
+  <testcase name="synthesizeAnnotationFromMapWithoutAttributeAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.004"/>
   <testcase name="findAnnotationDeclaringClassForTypesWithSingleCandidateType" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
-  <testcase name="findAnnotationDeclaringClassForTypesWithMultipleCandidateTypes" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.004"/>
-  <testcase name="findMethodAnnotationWithAnnotationOnMethodInInterface" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.002"/>
-  <testcase name="getValueFromNonPublicAnnotation" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.002"/>
-  <testcase name="getDeclaredRepeatableAnnotationsDeclaredOnSuperclass" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.002"/>
-  <testcase name="findClassAnnotationFavorsMoreLocallyDeclaredComposedAnnotationsOverInheritedComposedAnnotations" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.007"/>
-  <testcase name="getAttributeAliasNamesFromComposedAnnotationWithTransitiveImplicitAliasesForAliasPair" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.002"/>
-  <testcase name="findMethodAnnotationFromGenericInterface" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
-  <testcase name="findMethodAnnotationOnLeaf" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
-  <testcase name="findMethodAnnotationOnRoot" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.002"/>
-  <testcase name="synthesizeAnnotationWithImplicitAliasesWithDuplicateValues" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.005"/>
-  <testcase name="getValueFromAnnotation" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.012"/>
-  <testcase name="findMethodAnnotationWithMetaAnnotationOnLeaf" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.008"/>
-  <testcase name="findMethodAnnotationWithMetaAnnotationOnRoot" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.004"/>
-  <testcase name="getAttributeAliasNamesFromComposedAnnotationWithImplicitAliasesForAliasPair" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.005"/>
-  <testcase name="synthesizeAnnotationWithAttributeAliasForAttributeWithDifferentDefaultValue" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
-  <testcase name="getAttributeAliasNamesFromComposedAnnotationWithImplicitAliasesWithImpliedAliasNamesOmitted" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
+  <testcase name="findAnnotationDeclaringClassForTypesWithMultipleCandidateTypes" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.027"/>
+  <testcase name="findMethodAnnotationWithAnnotationOnMethodInInterface" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
+  <testcase name="getValueFromNonPublicAnnotation" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.0"/>
+  <testcase name="getDeclaredRepeatableAnnotationsDeclaredOnSuperclass" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
+  <testcase name="findClassAnnotationFavorsMoreLocallyDeclaredComposedAnnotationsOverInheritedComposedAnnotations" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.035"/>
+  <testcase name="getAttributeAliasNamesFromComposedAnnotationWithTransitiveImplicitAliasesForAliasPair" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
+  <testcase name="findMethodAnnotationFromGenericInterface" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.0"/>
+  <testcase name="findMethodAnnotationOnLeaf" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.0"/>
+  <testcase name="findMethodAnnotationOnRoot" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.0"/>
+  <testcase name="synthesizeAnnotationWithImplicitAliasesWithDuplicateValues" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.004"/>
+  <testcase name="getValueFromAnnotation" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.1"/>
+  <testcase name="findMethodAnnotationWithMetaAnnotationOnLeaf" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
+  <testcase name="findMethodAnnotationWithMetaAnnotationOnRoot" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.0"/>
+  <testcase name="getAttributeAliasNamesFromComposedAnnotationWithImplicitAliasesForAliasPair" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.0"/>
+  <testcase name="synthesizeAnnotationWithAttributeAliasForAttributeWithDifferentDefaultValue" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.011"/>
+  <testcase name="getAttributeAliasNamesFromComposedAnnotationWithImplicitAliasesWithImpliedAliasNamesOmitted" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.002"/>
   <testcase name="synthesizeAnnotationWithAttributeAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.002"/>
-  <testcase name="interfaceWithAnnotatedMethods" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.014"/>
-  <testcase name="synthesizeAnnotationWithImplicitAliasesWithDifferentDefaultValues" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
-  <testcase name="synthesizeAnnotationWithArrayOfChars" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
-  <testcase name="findClassAnnotationOnMetaMetaAnnotatedClass" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
-  <testcase name="synthesizeAnnotationWithTransitiveImplicitAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
-  <testcase name="synthesizeAnnotationFromMapWithImplicitAttributeAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.004"/>
-  <testcase name="synthesizeAnnotationWithAttributeAliasForAttributeOfDifferentType" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.002"/>
+  <testcase name="interfaceWithAnnotatedMethods" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.021"/>
+  <testcase name="synthesizeAnnotationWithImplicitAliasesWithDifferentDefaultValues" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.005"/>
+  <testcase name="synthesizeAnnotationWithArrayOfChars" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.009"/>
+  <testcase name="findClassAnnotationOnMetaMetaAnnotatedClass" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.016"/>
+  <testcase name="synthesizeAnnotationWithTransitiveImplicitAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.006"/>
+  <testcase name="synthesizeAnnotationFromMapWithImplicitAttributeAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.017"/>
+  <testcase name="synthesizeAnnotationWithAttributeAliasForAttributeOfDifferentType" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.004"/>
   <testcase name="synthesizeAnnotationWithImplicitAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.006"/>
-  <testcase name="getRepeatableAnnotationsDeclaredOnMultipleSuperclasses" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
-  <testcase name="equalsForSynthesizedAnnotations" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.006"/>
-  <testcase name="findMethodAnnotationFromInterface" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.0"/>
+  <testcase name="getRepeatableAnnotationsDeclaredOnMultipleSuperclasses" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.005"/>
+  <testcase name="equalsForSynthesizedAnnotations" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.021"/>
+  <testcase name="findMethodAnnotationFromInterface" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
   <testcase name="synthesizeAnnotationFromMapWithAttributeAliasesThatOverrideArraysWithSingleElements" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
-  <testcase name="toStringForSynthesizedAnnotations" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.002"/>
-  <testcase name="synthesizeAnnotationWithAttributeAliasWithMirroredAliasForWrongAttribute" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.002"/>
-  <testcase name="synthesizeAnnotationWithTransitiveImplicitAliasesForAliasPair" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
+  <testcase name="toStringForSynthesizedAnnotations" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.008"/>
+  <testcase name="synthesizeAnnotationWithAttributeAliasWithMirroredAliasForWrongAttribute" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
+  <testcase name="synthesizeAnnotationWithTransitiveImplicitAliasesForAliasPair" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.007"/>
   <testcase name="getAttributeOverrideNameForNonAliasedAttribute" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.0"/>
-  <testcase name="hashCodeForSynthesizedAnnotations" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
-  <testcase name="synthesizeAnnotationFromMapWithNestedMap" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
-  <testcase name="findMethodAnnotationOnBridgedMethod" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
+  <testcase name="hashCodeForSynthesizedAnnotations" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.002"/>
+  <testcase name="synthesizeAnnotationFromMapWithNestedMap" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.004"/>
+  <testcase name="findMethodAnnotationOnBridgedMethod" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.002"/>
   <testcase name="synthesizeAnnotationWhereAliasForHasDuplicateAttributeDeclaration" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.004"/>
   <testcase name="findClassAnnotationOnSubSubInheritedAnnotationInterface" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
   <testcase name="findClassAnnotationOnInheritedAnnotationInterface" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
   <testcase name="getAttributeOverrideNameFromAliasedComposedAnnotation" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
-  <testcase name="getAnnotationAttributesWithoutAttributeAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
+  <testcase name="getAnnotationAttributesWithoutAttributeAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
   <testcase name="findMethodAnnotationFromGenericSuperclass" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
   <testcase name="findMethodAnnotationFromInterfaceOnSuper" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
-  <testcase name="findMethodAnnotationOnBridgeMethod" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.002"/>
-  <testcase name="findClassAnnotationOnMetaMetaMetaAnnotatedClass" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.006"/>
-  <testcase name="findMethodAnnotationFromInterfaceWhenSuperDoesNotImplementMethod" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
-  <testcase name="findClassAnnotationFavorsMoreLocallyDeclaredComposedAnnotationsOverAnnotationsOnInterfaces" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
-  <testcase name="synthesizeNonPublicAnnotationWithAttributeAliasesFromDifferentPackage" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.006"/>
-  <testcase name="findClassAnnotationOnNonInheritedAnnotationInterface" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
-  <testcase name="findClassAnnotationOnSubSubNonInheritedAnnotationInterface" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.0"/>
-  <testcase name="synthesizeAnnotationFromDefaultsWithAttributeAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.0"/>
-  <testcase name="getRepeatableAnnotationsDeclaredOnClassWithMissingAttributeAliasDeclaration" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
+  <testcase name="findMethodAnnotationOnBridgeMethod" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.003"/>
+  <testcase name="findClassAnnotationOnMetaMetaMetaAnnotatedClass" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.031"/>
+  <testcase name="findMethodAnnotationFromInterfaceWhenSuperDoesNotImplementMethod" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.005"/>
+  <testcase name="findClassAnnotationFavorsMoreLocallyDeclaredComposedAnnotationsOverAnnotationsOnInterfaces" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.023"/>
+  <testcase name="synthesizeNonPublicAnnotationWithAttributeAliasesFromDifferentPackage" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.03"/>
+  <testcase name="findClassAnnotationOnNonInheritedAnnotationInterface" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.002"/>
+  <testcase name="findClassAnnotationOnSubSubNonInheritedAnnotationInterface" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.002"/>
+  <testcase name="synthesizeAnnotationFromDefaultsWithAttributeAliases" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.002"/>
+  <testcase name="getRepeatableAnnotationsDeclaredOnClassWithMissingAttributeAliasDeclaration" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.004"/>
   <testcase name="getDefaultValueFromAnnotation" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.001"/>
-  <testcase name="synthesizeAnnotationWithAttributeAliasForNonexistentAttribute" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.002"/>
+  <testcase name="synthesizeAnnotationWithAttributeAliasForNonexistentAttribute" classname="org.springframework.core.annotation.AnnotationUtilsTests" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

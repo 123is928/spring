@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.annotation.SynthesizingMethodParameterTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:12" hostname="XULANLAN" time="0.009">
+<testsuite name="org.springframework.core.annotation.SynthesizingMethodParameterTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-08-24T10:31:15" hostname="XULANLAN" time="0.009">
   <properties/>
   <testcase name="testFactoryMethods" classname="org.springframework.core.annotation.SynthesizingMethodParameterTests" time="0.002"/>
   <testcase name="testHashCode" classname="org.springframework.core.annotation.SynthesizingMethodParameterTests" time="0.001"/>

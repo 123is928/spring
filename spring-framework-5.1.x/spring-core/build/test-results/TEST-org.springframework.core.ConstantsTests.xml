@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.ConstantsTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:15" hostname="XULANLAN" time="0.035">
+<testsuite name="org.springframework.core.ConstantsTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-08-24T10:31:19" hostname="XULANLAN" time="0.023">
   <properties/>
-  <testcase name="ctorWithNullClass" classname="org.springframework.core.ConstantsTests" time="0.012"/>
-  <testcase name="getValuesInTurkey" classname="org.springframework.core.ConstantsTests" time="0.009"/>
-  <testcase name="suffixAccess" classname="org.springframework.core.ConstantsTests" time="0.001"/>
-  <testcase name="toCode" classname="org.springframework.core.ConstantsTests" time="0.001"/>
+  <testcase name="ctorWithNullClass" classname="org.springframework.core.ConstantsTests" time="0.015"/>
+  <testcase name="getValuesInTurkey" classname="org.springframework.core.ConstantsTests" time="0.005"/>
+  <testcase name="suffixAccess" classname="org.springframework.core.ConstantsTests" time="0.0"/>
+  <testcase name="toCode" classname="org.springframework.core.ConstantsTests" time="0.0"/>
   <testcase name="getValuesWithEmptyStringPrefix" classname="org.springframework.core.ConstantsTests" time="0.0"/>
   <testcase name="constants" classname="org.springframework.core.ConstantsTests" time="0.0"/>
-  <testcase name="getValuesWithNullPrefix" classname="org.springframework.core.ConstantsTests" time="0.0"/>
-  <testcase name="getValues" classname="org.springframework.core.ConstantsTests" time="0.001"/>
-  <testcase name="withClassThatExposesNoConstants" classname="org.springframework.core.ConstantsTests" time="0.01"/>
+  <testcase name="getValuesWithNullPrefix" classname="org.springframework.core.ConstantsTests" time="0.001"/>
+  <testcase name="getValues" classname="org.springframework.core.ConstantsTests" time="0.0"/>
+  <testcase name="withClassThatExposesNoConstants" classname="org.springframework.core.ConstantsTests" time="0.001"/>
   <testcase name="getValuesWithWhitespacedStringPrefix" classname="org.springframework.core.ConstantsTests" time="0.0"/>
   <testcase name="getNames" classname="org.springframework.core.ConstantsTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

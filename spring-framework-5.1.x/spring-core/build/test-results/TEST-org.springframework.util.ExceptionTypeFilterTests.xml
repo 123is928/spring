@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.ExceptionTypeFilterTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:40" hostname="XULANLAN" time="0.016">
+<testsuite name="org.springframework.util.ExceptionTypeFilterTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-24T10:32:02" hostname="XULANLAN" time="0.068">
   <properties/>
-  <testcase name="subClassMatch" classname="org.springframework.util.ExceptionTypeFilterTests" time="0.016"/>
+  <testcase name="subClassMatch" classname="org.springframework.util.ExceptionTypeFilterTests" time="0.068"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

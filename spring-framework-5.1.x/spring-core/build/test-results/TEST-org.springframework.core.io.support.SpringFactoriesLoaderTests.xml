@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.io.support.SpringFactoriesLoaderTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:33" hostname="XULANLAN" time="0.049">
+<testsuite name="org.springframework.core.io.support.SpringFactoriesLoaderTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-08-24T10:31:39" hostname="XULANLAN" time="0.114">
   <properties/>
-  <testcase name="loadFactoriesInCorrectOrder" classname="org.springframework.core.io.support.SpringFactoriesLoaderTests" time="0.039"/>
-  <testcase name="loadPackagePrivateFactory" classname="org.springframework.core.io.support.SpringFactoriesLoaderTests" time="0.01"/>
-  <testcase name="loadInvalid" classname="org.springframework.core.io.support.SpringFactoriesLoaderTests" time="0.0"/>
+  <testcase name="loadFactoriesInCorrectOrder" classname="org.springframework.core.io.support.SpringFactoriesLoaderTests" time="0.07"/>
+  <testcase name="loadPackagePrivateFactory" classname="org.springframework.core.io.support.SpringFactoriesLoaderTests" time="0.038"/>
+  <testcase name="loadInvalid" classname="org.springframework.core.io.support.SpringFactoriesLoaderTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.ObjectUtilsTests" tests="109" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:41" hostname="XULANLAN" time="0.019">
+<testsuite name="org.springframework.util.ObjectUtilsTests" tests="109" skipped="0" failures="0" errors="0" timestamp="2019-08-24T10:32:05" hostname="XULANLAN" time="0.03">
   <properties/>
-  <testcase name="nullSafeToStringWithDoubleArrayEqualToNull" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
-  <testcase name="addObjectToArrayWhenEmpty" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
+  <testcase name="nullSafeToStringWithDoubleArrayEqualToNull" classname="org.springframework.util.ObjectUtilsTests" time="0.001"/>
+  <testcase name="addObjectToArrayWhenEmpty" classname="org.springframework.util.ObjectUtilsTests" time="0.002"/>
   <testcase name="nullSafeHashCodeWithObject" classname="org.springframework.util.ObjectUtilsTests" time="0.001"/>
-  <testcase name="nullSafeToStringWithByteArrayEqualToNull" classname="org.springframework.util.ObjectUtilsTests" time="0.001"/>
-  <testcase name="isPrimitiveOrWrapperWithFloatWrapperClass" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
+  <testcase name="nullSafeToStringWithByteArrayEqualToNull" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
+  <testcase name="isPrimitiveOrWrapperWithFloatWrapperClass" classname="org.springframework.util.ObjectUtilsTests" time="0.001"/>
   <testcase name="isPrimitiveOrWrapperWithLongWrapperClass" classname="org.springframework.util.ObjectUtilsTests" time="0.001"/>
   <testcase name="nullSafeToStringWithDoubleArrayBeingEmpty" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="nullSafeToStringWithLongArrayEqualToNull" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
@@ -13,20 +13,20 @@
   <testcase name="nullSafeToStringWithBooleanArray" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="nullSafeHashCodeWithObjectBeingByteArray" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="isArrayOfPrimitivesWithObjectArray" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
-  <testcase name="toObjectArrayWithNonArrayType" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
+  <testcase name="toObjectArrayWithNonArrayType" classname="org.springframework.util.ObjectUtilsTests" time="0.001"/>
   <testcase name="nullSafeHashCodeWithObjectEqualToNull" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="addObjectToNullArray" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="addObjectToArraySunnyDay" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="nullSafeToStringWithPlainOldString" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="nullSafeHashCodeWithIntArrayEqualToNull" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
-  <testcase name="nullSafeToStringWithFloatArray" classname="org.springframework.util.ObjectUtilsTests" time="0.001"/>
+  <testcase name="nullSafeToStringWithFloatArray" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="nullSafeHashCodeWithObjectBeingIntArray" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="nullSafeToStringWithStringArrayEqualToNull" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="isPrimitiveOrWrapperWithByteWrapperClass" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="isPrimitiveOrWrapperWithBooleanPrimitiveClass" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="isPrimitiveOrWrapperWithBooleanWrapperClass" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="isPrimitiveOrWrapperWithCharacterClass" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
-  <testcase name="nullSafeToStringWithCharArray" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
+  <testcase name="nullSafeToStringWithCharArray" classname="org.springframework.util.ObjectUtilsTests" time="0.001"/>
   <testcase name="containsConstant" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="isPrimitiveOrWrapperWithCharClass" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="hashCodeWithBooleanTrue" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
@@ -69,7 +69,7 @@
   <testcase name="nullSafeHashCodeWithCharArray" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="isEmptyUnsupportedObjectType" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="nullSafeHashCodeWithByteArrayEqualToNull" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
-  <testcase name="nullSafeHashCodeWithObjectArrayEqualToNull" classname="org.springframework.util.ObjectUtilsTests" time="0.001"/>
+  <testcase name="nullSafeHashCodeWithObjectArrayEqualToNull" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="nullSafeToStringWithStringArrayBeingEmpty" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="nullSafeToStringWithObjectArrayBeingEmpty" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="nullSafeHashCodeWithDoubleArray" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
@@ -78,7 +78,7 @@
   <testcase name="isEmptyCharSequence" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="nullSafeHashCodeWithObjectBeingObjectArray" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="caseInsensitiveValueOf" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
-  <testcase name="addObjectToSingleNullElementArray" classname="org.springframework.util.ObjectUtilsTests" time="0.001"/>
+  <testcase name="addObjectToSingleNullElementArray" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="nullSafeToStringWithShortArray" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="nullSafeHashCodeWithFloatArray" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="nullSafeToStringWithShortArrayBeingEmpty" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
@@ -98,10 +98,10 @@
   <testcase name="hashCodeWithDouble" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="nullSafeToStringWithLongArray" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="nullSafeHashCodeWithFloatArrayEqualToNull" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
-  <testcase name="nullSafeToStringWithDoubleArray" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
+  <testcase name="nullSafeToStringWithDoubleArray" classname="org.springframework.util.ObjectUtilsTests" time="0.005"/>
   <testcase name="nullSafeToStringWithIntArrayEqualToNull" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
-  <testcase name="isPrimitiveOrWrapperWithIntClass" classname="org.springframework.util.ObjectUtilsTests" time="0.001"/>
-  <testcase name="isPrimitiveOrWrapperWithBytePrimitiveClass" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
+  <testcase name="isPrimitiveOrWrapperWithIntClass" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
+  <testcase name="isPrimitiveOrWrapperWithBytePrimitiveClass" classname="org.springframework.util.ObjectUtilsTests" time="0.001"/>
   <testcase name="nullSafeToStringWithShortArrayEqualToNull" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="nullSafeToStringWithStringArray" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>
   <testcase name="isPrimitiveOrWrapperWithShortPrimitiveClass" classname="org.springframework.util.ObjectUtilsTests" time="0.0"/>

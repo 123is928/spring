@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.io.buffer.PooledDataBufferTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:28" hostname="XULANLAN" time="0.006">
+<testsuite name="org.springframework.core.io.buffer.PooledDataBufferTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-08-24T10:31:34" hostname="XULANLAN" time="0.042">
   <properties/>
   <testcase name="retainAndRelease[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.PooledDataBufferTests" time="0.0"/>
-  <testcase name="tooManyReleases[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.PooledDataBufferTests" time="0.0"/>
+  <testcase name="tooManyReleases[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.PooledDataBufferTests" time="0.002"/>
   <testcase name="retainAndRelease[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.PooledDataBufferTests" time="0.0"/>
-  <testcase name="tooManyReleases[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.PooledDataBufferTests" time="0.0"/>
-  <testcase name="retainAndRelease[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.PooledDataBufferTests" time="0.001"/>
-  <testcase name="tooManyReleases[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.PooledDataBufferTests" time="0.0"/>
-  <testcase name="retainAndRelease[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.PooledDataBufferTests" time="0.004"/>
-  <testcase name="tooManyReleases[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.PooledDataBufferTests" time="0.0"/>
+  <testcase name="tooManyReleases[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.PooledDataBufferTests" time="0.001"/>
+  <testcase name="retainAndRelease[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.PooledDataBufferTests" time="0.002"/>
+  <testcase name="tooManyReleases[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.PooledDataBufferTests" time="0.001"/>
+  <testcase name="retainAndRelease[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.PooledDataBufferTests" time="0.028"/>
+  <testcase name="tooManyReleases[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.PooledDataBufferTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

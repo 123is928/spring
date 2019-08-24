@@ -224,8 +224,9 @@ public class AnnotatedBeanDefinitionReader {
 		/**
 		 * 根据指定的bean创建一个AnnotatedGenericBeanDefinition
 		 * 这个AnnotatedGenericBeanDefinition可以理解为一个数据结构
-		 * AnnotatedGenericBeanDefinition包含了类的其他信息,比如一些元信息
-		 * 如scope,lazy等
+		 * AnnotatedGenericBeanDefinition主要是用来描述类的注解信息,比如一些元信息
+		 * 如Scope,Lazy,Primary,DependsOn,Role,Description等
+		 *
 		 */
 		AnnotatedGenericBeanDefinition abd = new AnnotatedGenericBeanDefinition(annotatedClass);
 
@@ -253,9 +254,26 @@ public class AnnotatedBeanDefinitionReader {
 		abd.setScope(scopeMetadata.getScopeName());
 		String beanName = (name != null ? name : this.beanNameGenerator.generateBeanName(abd, this.registry));
 
+		/**
+		 * 处理类当中的通用注解
+		 * 分析源码可以知道他主要处理
+		 * Lazy,DependsOn,Primary,Role等等注解
+		 * 处理完成之后processCommonDefinitionAnnotations中依然是把他添加到数据结构当中
+		 */
 		AnnotationConfigUtils.processCommonDefinitionAnnotations(abd);
+
+		/**
+		 * 如果在向容器注册注解Bean定义时,使用了额外的限定符注解则解析
+		 * @Qualifier:注入指定名称的bean;
+		 * @Primary：自动装配时当出现多个Bean候选者时，被注解为@Primary的Bean将作为首选者，否则将抛出异常
+		 * 这里需要注意的是
+		 * byName和@Qualifier这个变量是Annotaion类型数组,里面存的不仅仅是@Qualifier注解
+		 * 理论上里面存的是一切注解,所以可以看到下面的代码spring去循环这个数组
+		 * 然后依次判断了注解当中是否包含了Primary,是否包含了Lazy
+		 */
 		if (qualifiers != null) {
 			for (Class<? extends Annotation> qualifier : qualifiers) {
+				// 如果配置了@Primary注解,如果加了则作为首选
 				if (Primary.class == qualifier) {
 					abd.setPrimary(true);
 				}
@@ -263,6 +281,7 @@ public class AnnotatedBeanDefinitionReader {
 					abd.setLazyInit(true);
 				}
 				else {
+					// 如果使用了除@Primary和@Lazy以外的其他注解,则为该Bean添加一个根据名字自动装配的限定符
 					abd.addQualifier(new AutowireCandidateQualifier(qualifier));
 				}
 			}
@@ -271,8 +290,22 @@ public class AnnotatedBeanDefinitionReader {
 			customizer.customize(abd);
 		}
 
+		/**
+		 * 这个BeanDefinitionHolder也是一个数据结构(底层是个数据)
+		 * key是存放了这个bean的所有元信息
+		 * value存放的是这个bean的beanName
+		 */
 		BeanDefinitionHolder definitionHolder = new BeanDefinitionHolder(abd, beanName);
 		definitionHolder = AnnotationConfigUtils.applyScopedProxyMode(scopeMetadata, definitionHolder, this.registry);
+
+		/**
+		 * 把上述的这个数据结构注册给registry
+		 * registry就是AnnotationConfigApplicationContext
+		 * AnnotationConfigApplicationContext在初始化的时候通过调用父类的构造方法
+		 * 实例化一个DefaultListableBeanFactory
+		 * registerBeanDefinition里面就是把definitionHolder这个数据结构包含的信息注册到
+		 * DefaultListableBeanFactory这个工厂
+		 */
 		BeanDefinitionReaderUtils.registerBeanDefinition(definitionHolder, this.registry);
 	}
 

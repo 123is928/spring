@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.io.buffer.LeakAwareDataBufferFactoryTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:23" hostname="XULANLAN" time="5.044">
+<testsuite name="org.springframework.core.io.buffer.LeakAwareDataBufferFactoryTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-08-24T10:31:29" hostname="XULANLAN" time="5.213">
   <properties/>
   <testcase name="noLeak" classname="org.springframework.core.io.buffer.LeakAwareDataBufferFactoryTests" time="0.001"/>
-  <testcase name="leak" classname="org.springframework.core.io.buffer.LeakAwareDataBufferFactoryTests" time="5.043"/>
-  <system-out><![CDATA[23:10:28.065 [Test worker] ERROR o.s.c.i.b.LeakAwareDataBufferFactory - Leaked error: 
+  <testcase name="leak" classname="org.springframework.core.io.buffer.LeakAwareDataBufferFactoryTests" time="5.212"/>
+  <system-out><![CDATA[18:31:34.281 [Test worker] ERROR o.s.c.i.b.LeakAwareDataBufferFactory - Leaked error: 
 java.lang.AssertionError: DataBuffer leak detected: {AdvancedLeakAwareByteBuf(PooledUnsafeDirectByteBuf(ridx: 0, widx: 0, cap: 256))} has not been released.
 Stack trace of buffer allocation statement follows:
 	at org.springframework.core.io.buffer.LeakAwareDataBufferFactoryTests.leak(LeakAwareDataBufferFactoryTests.java:34) [test/:?]

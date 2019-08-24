@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.codec.ByteArrayEncoderTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:14" hostname="XULANLAN" time="0.008">
+<testsuite name="org.springframework.core.codec.ByteArrayEncoderTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-08-24T10:31:18" hostname="XULANLAN" time="0.017">
   <properties/>
-  <testcase name="canEncode" classname="org.springframework.core.codec.ByteArrayEncoderTests" time="0.0"/>
-  <testcase name="encode" classname="org.springframework.core.codec.ByteArrayEncoderTests" time="0.008"/>
+  <testcase name="canEncode" classname="org.springframework.core.codec.ByteArrayEncoderTests" time="0.002"/>
+  <testcase name="encode" classname="org.springframework.core.codec.ByteArrayEncoderTests" time="0.013"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

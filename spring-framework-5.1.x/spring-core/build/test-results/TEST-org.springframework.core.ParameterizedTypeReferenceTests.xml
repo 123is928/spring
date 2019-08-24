@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.ParameterizedTypeReferenceTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:33" hostname="XULANLAN" time="0.009">
+<testsuite name="org.springframework.core.ParameterizedTypeReferenceTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-08-24T10:31:41" hostname="XULANLAN" time="0.021">
   <properties/>
-  <testcase name="mapTypeReference" classname="org.springframework.core.ParameterizedTypeReferenceTests" time="0.007"/>
+  <testcase name="mapTypeReference" classname="org.springframework.core.ParameterizedTypeReferenceTests" time="0.015"/>
   <testcase name="listTypeReference" classname="org.springframework.core.ParameterizedTypeReferenceTests" time="0.001"/>
-  <testcase name="stringTypeReference" classname="org.springframework.core.ParameterizedTypeReferenceTests" time="0.0"/>
+  <testcase name="stringTypeReference" classname="org.springframework.core.ParameterizedTypeReferenceTests" time="0.001"/>
   <testcase name="reflectiveTypeReferenceWithSpecificDeclaration" classname="org.springframework.core.ParameterizedTypeReferenceTests" time="0.0"/>
-  <testcase name="reflectiveTypeReferenceWithGenericDeclaration" classname="org.springframework.core.ParameterizedTypeReferenceTests" time="0.0"/>
+  <testcase name="reflectiveTypeReferenceWithGenericDeclaration" classname="org.springframework.core.ParameterizedTypeReferenceTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

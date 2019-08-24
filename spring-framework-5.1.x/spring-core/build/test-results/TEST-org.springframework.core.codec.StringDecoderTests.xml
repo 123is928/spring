@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.codec.StringDecoderTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:15" hostname="XULANLAN" time="0.06">
+<testsuite name="org.springframework.core.codec.StringDecoderTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-08-24T10:31:19" hostname="XULANLAN" time="0.099">
   <properties/>
-  <testcase name="decodeToMono" classname="org.springframework.core.codec.StringDecoderTests" time="0.008"/>
-  <testcase name="decode" classname="org.springframework.core.codec.StringDecoderTests" time="0.02"/>
-  <testcase name="decodeToMonoWithEmptyFlux" classname="org.springframework.core.codec.StringDecoderTests" time="0.001"/>
-  <testcase name="decodeEmptyDataBuffer" classname="org.springframework.core.codec.StringDecoderTests" time="0.003"/>
+  <testcase name="decodeToMono" classname="org.springframework.core.codec.StringDecoderTests" time="0.01"/>
+  <testcase name="decode" classname="org.springframework.core.codec.StringDecoderTests" time="0.039"/>
+  <testcase name="decodeToMonoWithEmptyFlux" classname="org.springframework.core.codec.StringDecoderTests" time="0.004"/>
+  <testcase name="decodeEmptyDataBuffer" classname="org.springframework.core.codec.StringDecoderTests" time="0.008"/>
   <testcase name="canDecode" classname="org.springframework.core.codec.StringDecoderTests" time="0.0"/>
-  <testcase name="decodeNewLineIncludeDelimiters" classname="org.springframework.core.codec.StringDecoderTests" time="0.008"/>
-  <testcase name="decodeNewLine" classname="org.springframework.core.codec.StringDecoderTests" time="0.008"/>
-  <testcase name="decodeEmptyFlux" classname="org.springframework.core.codec.StringDecoderTests" time="0.001"/>
-  <testcase name="decodeMultibyteCharacterUtf16" classname="org.springframework.core.codec.StringDecoderTests" time="0.01"/>
+  <testcase name="decodeNewLineIncludeDelimiters" classname="org.springframework.core.codec.StringDecoderTests" time="0.013"/>
+  <testcase name="decodeNewLine" classname="org.springframework.core.codec.StringDecoderTests" time="0.01"/>
+  <testcase name="decodeEmptyFlux" classname="org.springframework.core.codec.StringDecoderTests" time="0.002"/>
+  <testcase name="decodeMultibyteCharacterUtf16" classname="org.springframework.core.codec.StringDecoderTests" time="0.009"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
