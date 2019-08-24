@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.OrderComparatorTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:33" hostname="XULANLAN" time="0.018">
+  <properties/>
+  <testcase name="compareOrderedInstancesBefore" classname="org.springframework.core.OrderComparatorTests" time="0.013"/>
+  <testcase name="compareOrderedInstancesNullLast" classname="org.springframework.core.OrderComparatorTests" time="0.0"/>
+  <testcase name="compareOrderedInstancesNullFirst" classname="org.springframework.core.OrderComparatorTests" time="0.0"/>
+  <testcase name="compareOrderedInstancesAfter" classname="org.springframework.core.OrderComparatorTests" time="0.0"/>
+  <testcase name="compareTwoNonOrderedInstancesEndsUpAsSame" classname="org.springframework.core.OrderComparatorTests" time="0.0"/>
+  <testcase name="compareOrderedInstancesSame" classname="org.springframework.core.OrderComparatorTests" time="0.0"/>
+  <testcase name="compareWithSourceProviderArray" classname="org.springframework.core.OrderComparatorTests" time="0.004"/>
+  <testcase name="compareWithSourceProviderEmpty" classname="org.springframework.core.OrderComparatorTests" time="0.0"/>
+  <testcase name="compareWithSourceProviderArrayNoMatch" classname="org.springframework.core.OrderComparatorTests" time="0.0"/>
+  <testcase name="compareOrderedInstancesDoubleNull" classname="org.springframework.core.OrderComparatorTests" time="0.0"/>
+  <testcase name="compareWithSimpleSourceProvider" classname="org.springframework.core.OrderComparatorTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

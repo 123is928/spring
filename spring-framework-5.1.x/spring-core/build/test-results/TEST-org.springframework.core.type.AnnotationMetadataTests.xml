@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.type.AnnotationMetadataTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:36" hostname="XULANLAN" time="0.61">
+  <properties/>
+  <testcase name="composedAnnotationWithMetaAnnotationsWithIdenticalAttributeNamesUsingStandardAnnotationMetadata" classname="org.springframework.core.type.AnnotationMetadataTests" time="0.092"/>
+  <testcase name="multipleAnnotationsWithIdenticalAttributeNamesUsingStandardAnnotationMetadata" classname="org.springframework.core.type.AnnotationMetadataTests" time="0.003"/>
+  <testcase name="asmAnnotationMetadataForInterface" classname="org.springframework.core.type.AnnotationMetadataTests" time="0.191"/>
+  <testcase name="asmAnnotationMetadata" classname="org.springframework.core.type.AnnotationMetadataTests" time="0.148"/>
+  <testcase name="metaAnnotationOverridesUsingStandardAnnotationMetadata" classname="org.springframework.core.type.AnnotationMetadataTests" time="0.074"/>
+  <testcase name="metaAnnotationOverridesUsingAnnotationMetadataReadingVisitor" classname="org.springframework.core.type.AnnotationMetadataTests" time="0.008"/>
+  <testcase name="standardAnnotationMetadataForSubclass" classname="org.springframework.core.type.AnnotationMetadataTests" time="0.024"/>
+  <testcase name="standardAnnotationMetadataForAnnotation" classname="org.springframework.core.type.AnnotationMetadataTests" time="0.0"/>
+  <testcase name="standardAnnotationMetadataForInterface" classname="org.springframework.core.type.AnnotationMetadataTests" time="0.001"/>
+  <testcase name="asmAnnotationMetadataForSubclass" classname="org.springframework.core.type.AnnotationMetadataTests" time="0.001"/>
+  <testcase name="standardAnnotationMetadata" classname="org.springframework.core.type.AnnotationMetadataTests" time="0.037"/>
+  <testcase name="standardAnnotationMetadata_nestedAnnotationsAsMap_false" classname="org.springframework.core.type.AnnotationMetadataTests" time="0.004"/>
+  <testcase name="asmAnnotationMetadataForAnnotation" classname="org.springframework.core.type.AnnotationMetadataTests" time="0.007"/>
+  <testcase name="composedAnnotationWithMetaAnnotationsWithIdenticalAttributeNamesUsingAnnotationMetadataReadingVisitor" classname="org.springframework.core.type.AnnotationMetadataTests" time="0.003"/>
+  <testcase name="multipleAnnotationsWithIdenticalAttributeNamesUsingAnnotationMetadataReadingVisitor" classname="org.springframework.core.type.AnnotationMetadataTests" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

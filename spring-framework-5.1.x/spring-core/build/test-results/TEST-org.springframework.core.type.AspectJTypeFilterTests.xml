@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.type.AspectJTypeFilterTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:36" hostname="XULANLAN" time="0.796">
+  <properties/>
+  <testcase name="compositionPatternNoMatches" classname="org.springframework.core.type.AspectJTypeFilterTests" time="0.479"/>
+  <testcase name="annotationPatternMatches" classname="org.springframework.core.type.AspectJTypeFilterTests" time="0.124"/>
+  <testcase name="subclassPatternNoMatches" classname="org.springframework.core.type.AspectJTypeFilterTests" time="0.041"/>
+  <testcase name="compositionPatternMatches" classname="org.springframework.core.type.AspectJTypeFilterTests" time="0.056"/>
+  <testcase name="annotationPatternNoMatches" classname="org.springframework.core.type.AspectJTypeFilterTests" time="0.003"/>
+  <testcase name="namePatternNoMatches" classname="org.springframework.core.type.AspectJTypeFilterTests" time="0.024"/>
+  <testcase name="namePatternMatches" classname="org.springframework.core.type.AspectJTypeFilterTests" time="0.012"/>
+  <testcase name="subclassPatternMatches" classname="org.springframework.core.type.AspectJTypeFilterTests" time="0.051"/>
+  <system-out><![CDATA[warning no match for this type name: org.springframework.core.type.AspectJTypeFilterTests.SomeClassX [Xlint:invalidAbsoluteTypeName]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

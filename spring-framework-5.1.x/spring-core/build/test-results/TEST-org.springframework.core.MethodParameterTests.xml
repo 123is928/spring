@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.MethodParameterTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:33" hostname="XULANLAN" time="0.052">
+  <properties/>
+  <testcase name="equalsAndHashCodeConsidersNesting" classname="org.springframework.core.MethodParameterTests" time="0.027"/>
+  <testcase name="annotatedConstructorParameterInInnerClass" classname="org.springframework.core.MethodParameterTests" time="0.019"/>
+  <testcase name="genericConstructorParameterInInnerClass" classname="org.springframework.core.MethodParameterTests" time="0.002"/>
+  <testcase name="annotatedConstructorParameterInStaticNestedClass" classname="org.springframework.core.MethodParameterTests" time="0.003"/>
+  <testcase name="multipleResolveParameterTypeCalls" classname="org.springframework.core.MethodParameterTests" time="0.0"/>
+  <testcase name="testFactoryMethods" classname="org.springframework.core.MethodParameterTests" time="0.0"/>
+  <testcase name="testHashCode" classname="org.springframework.core.MethodParameterTests" time="0.0"/>
+  <testcase name="equalsAndHashCodeConsidersContainingClass" classname="org.springframework.core.MethodParameterTests" time="0.0"/>
+  <testcase name="testEquals" classname="org.springframework.core.MethodParameterTests" time="0.0"/>
+  <testcase name="testIndexValidation" classname="org.springframework.core.MethodParameterTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

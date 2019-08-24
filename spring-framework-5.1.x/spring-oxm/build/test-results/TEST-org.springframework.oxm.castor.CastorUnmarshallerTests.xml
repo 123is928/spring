@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.oxm.castor.CastorUnmarshallerTests" tests="22" skipped="1" failures="0" errors="0" timestamp="2019-08-23T15:47:01" hostname="XULANLAN" time="0.984">
+  <properties/>
+  <testcase name="unmarshalSaxSourceWithXmlOptions" classname="org.springframework.oxm.castor.CastorUnmarshallerTests" time="0.052"/>
+  <testcase name="ignoreExtraElementsFalse" classname="org.springframework.oxm.castor.CastorUnmarshallerTests" time="0.047"/>
+  <testcase name="unmarshalTargetClass" classname="org.springframework.oxm.castor.CastorUnmarshallerTests" time="0.095"/>
+  <testcase name="ignoreExtraElementsTrue" classname="org.springframework.oxm.castor.CastorUnmarshallerTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="whitespacePreserveFalse" classname="org.springframework.oxm.castor.CastorUnmarshallerTests" time="0.052"/>
+  <testcase name="rootObject" classname="org.springframework.oxm.castor.CastorUnmarshallerTests" time="0.038"/>
+  <testcase name="setBothTargetClassesAndMapping" classname="org.springframework.oxm.castor.CastorUnmarshallerTests" time="0.103"/>
+  <testcase name="clearCollectionsFalse" classname="org.springframework.oxm.castor.CastorUnmarshallerTests" time="0.035"/>
+  <testcase name="ignoreExtraAttributesTrue" classname="org.springframework.oxm.castor.CastorUnmarshallerTests" time="0.029"/>
+  <testcase name="whitespacePreserveTrue" classname="org.springframework.oxm.castor.CastorUnmarshallerTests" time="0.038"/>
+  <testcase name="unmarshalStreamSourceWithXmlOptions" classname="org.springframework.oxm.castor.CastorUnmarshallerTests" time="0.038"/>
+  <testcase name="clearCollectionsTrue" classname="org.springframework.oxm.castor.CastorUnmarshallerTests" time="0.033"/>
+  <testcase name="ignoreExtraAttributesFalse" classname="org.springframework.oxm.castor.CastorUnmarshallerTests" time="0.033"/>
+  <testcase name="unmarshalStreamSourceReader" classname="org.springframework.oxm.castor.CastorUnmarshallerTests" time="0.027"/>
+  <testcase name="unmarshalJaxp14StaxSourceXmlEventReader" classname="org.springframework.oxm.castor.CastorUnmarshallerTests" time="0.169"/>
+  <testcase name="unmarshalPartialStaxSourceXmlStreamReader" classname="org.springframework.oxm.castor.CastorUnmarshallerTests" time="0.022"/>
+  <testcase name="unmarshalStaxSourceXmlStreamReader" classname="org.springframework.oxm.castor.CastorUnmarshallerTests" time="0.024"/>
+  <testcase name="unmarshalSAXSource" classname="org.springframework.oxm.castor.CastorUnmarshallerTests" time="0.022"/>
+  <testcase name="unmarshalStreamSourceInputStream" classname="org.springframework.oxm.castor.CastorUnmarshallerTests" time="0.038"/>
+  <testcase name="unmarshalJaxp14StaxSourceXmlStreamReader" classname="org.springframework.oxm.castor.CastorUnmarshallerTests" time="0.027"/>
+  <testcase name="unmarshalStaxSourceXmlEventReader" classname="org.springframework.oxm.castor.CastorUnmarshallerTests" time="0.021"/>
+  <testcase name="unmarshalDomSource" classname="org.springframework.oxm.castor.CastorUnmarshallerTests" time="0.026"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

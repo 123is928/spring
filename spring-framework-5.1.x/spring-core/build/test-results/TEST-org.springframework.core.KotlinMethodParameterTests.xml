@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.KotlinMethodParameterTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:53" hostname="XULANLAN" time="0.786">
+  <properties/>
+  <testcase name="Inner class constructor" classname="org.springframework.core.KotlinMethodParameterTests" time="0.67"/>
+  <testcase name="Regular class constructor" classname="org.springframework.core.KotlinMethodParameterTests" time="0.002"/>
+  <testcase name="Method return type nullability" classname="org.springframework.core.KotlinMethodParameterTests" time="0.113"/>
+  <testcase name="Method parameter nullability" classname="org.springframework.core.KotlinMethodParameterTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

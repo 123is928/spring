@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.codec.ResourceDecoderTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-08-23T15:10:14" hostname="XULANLAN" time="0.04">
+  <properties/>
+  <testcase name="decode" classname="org.springframework.core.codec.ResourceDecoderTests" time="0.031"/>
+  <testcase name="canDecode" classname="org.springframework.core.codec.ResourceDecoderTests" time="0.0"/>
+  <testcase name="decodeToMono" classname="org.springframework.core.codec.ResourceDecoderTests" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
