@@ -1,5 +1,8 @@
 package com.chenling.app;
 
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
 /**
  * 功能描述
  *
@@ -7,6 +10,8 @@ package com.chenling.app;
  * date： 2019/8/23
  * @version 1.0
  */
+@Configuration
+@ComponentScan("com")
 public class AppConfig {
 
 }
