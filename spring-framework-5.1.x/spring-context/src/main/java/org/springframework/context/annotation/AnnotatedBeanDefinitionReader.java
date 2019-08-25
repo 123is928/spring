@@ -206,6 +206,12 @@ public class AnnotatedBeanDefinitionReader {
 	}
 
 	/**
+	 * register方法重点完成了bean配置类本身的解析和注册，处理过程可以分为以下几个步骤：
+	 * 		1.根据bean配置类，使用BeanDefinition解析Bean的定义信息，主要是一些注解信息
+	 * 		2.Bean作用域的处理，默认缺少@Scope注解，解析成单例
+	 * 		3.借助AnnotationConfigUtils工具类解析通用注解
+	 * 		4.将bean定义信息已beanname，beandifine键值对的形式注册到ioc容器中
+	 *
 	 * Register a bean from the given bean class, deriving its metadata from
 	 * class-declared annotations.
 	 * @param annotatedClass the class of the bean
@@ -239,12 +245,12 @@ public class AnnotatedBeanDefinitionReader {
 		}
 
 		/**
-		 * 不知道
+		 * 设置回调
 		 */
 		abd.setInstanceSupplier(instanceSupplier);
 
 		/**
-		 * 得到类的作用域
+		 * 解析bean作用域(单例或者原型)，如果有@Scope注解，则解析@Scope，没有则默认为singleton
 		 */
 		ScopeMetadata scopeMetadata = this.scopeMetadataResolver.resolveScopeMetadata(abd);
 
@@ -252,12 +258,15 @@ public class AnnotatedBeanDefinitionReader {
 		 * 把类的作用域添加到AnnotatedGenericBeanDefinition(数据结构中)
 		 */
 		abd.setScope(scopeMetadata.getScopeName());
+		/**
+		 * 生成bean配置类beanName
+		 */
 		String beanName = (name != null ? name : this.beanNameGenerator.generateBeanName(abd, this.registry));
 
 		/**
 		 * 处理类当中的通用注解
 		 * 分析源码可以知道他主要处理
-		 * Lazy,DependsOn,Primary,Role等等注解
+		 * Lazy, primary DependsOn, Role ,Description这五个注解
 		 * 处理完成之后processCommonDefinitionAnnotations中依然是把他添加到数据结构当中
 		 */
 		AnnotationConfigUtils.processCommonDefinitionAnnotations(abd);
@@ -275,9 +284,11 @@ public class AnnotatedBeanDefinitionReader {
 			for (Class<? extends Annotation> qualifier : qualifiers) {
 				// 如果配置了@Primary注解,如果加了则作为首选
 				if (Primary.class == qualifier) {
+					// 如果配置@Primary注解，则设置当前Bean为自动装配autowire时首选bean
 					abd.setPrimary(true);
 				}
 				else if (Lazy.class == qualifier) {
+					//设置当前bean为延迟加载
 					abd.setLazyInit(true);
 				}
 				else {
@@ -286,7 +297,12 @@ public class AnnotatedBeanDefinitionReader {
 				}
 			}
 		}
+		/**
+		 * 自定义bean注册，通常用在applicationContext创建后，手动向容器中一lambda表达式的方式注册bean,
+		 * 比如：applicationContext.registerBean(UserService.class, () -> new UserService());
+		 */
 		for (BeanDefinitionCustomizer customizer : definitionCustomizers) {
+			//自定义bean添加到BeanDefinition
 			customizer.customize(abd);
 		}
 
@@ -296,6 +312,7 @@ public class AnnotatedBeanDefinitionReader {
 		 * value存放的是这个bean的beanName
 		 */
 		BeanDefinitionHolder definitionHolder = new BeanDefinitionHolder(abd, beanName);
+		//创建代理对象
 		definitionHolder = AnnotationConfigUtils.applyScopedProxyMode(scopeMetadata, definitionHolder, this.registry);
 
 		/**

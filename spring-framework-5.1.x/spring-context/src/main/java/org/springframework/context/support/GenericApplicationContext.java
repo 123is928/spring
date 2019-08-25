@@ -104,6 +104,7 @@ public class GenericApplicationContext extends AbstractApplicationContext implem
 
 
 	/**
+	 * 实例化一个bean工厂
 	 * Create a new GenericApplicationContext.
 	 * @see #registerBeanDefinition
 	 * @see #refresh

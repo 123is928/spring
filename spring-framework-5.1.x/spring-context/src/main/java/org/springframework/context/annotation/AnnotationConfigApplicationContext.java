@@ -81,8 +81,12 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
 		 * AnnotatedBeanDefinition:	加了注解类的描述
 		 * 创建一个读取注解的Bean定义读取器
 		 * 什么事Bean定义? BeanDefinition
+		 *
+		 * 在IOC容器中初始化一个 注解bean读取器AnnotatedBeanDefinitionReader
 		 */
 		this.reader = new AnnotatedBeanDefinitionReader(this);
+
+		// 在IOC容器中初始化一个 按类路径扫描注解bean的 扫描器
 		this.scanner = new ClassPathBeanDefinitionScanner(this);
 	}
 
@@ -108,7 +112,17 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
 		// 这里由于他有父类,故而会先调用父类的构造方法,然后才会调用自己的构造方法
 		// 在自己的构造方法中初始一个读取器和扫描器
 		this();
+		/**
+		 * register方法重点完成了bean配置类本身的解析和注册，处理过程可以分为以下几个步骤：
+		 * 	 1.根据bean配置类，使用BeanDefinition解析Bean的定义信息，主要是一些注解信息
+		 * 	 2.Bean作用域的处理，默认缺少@Scope注解，解析成单例
+		 * 	 3.借助AnnotationConfigUtils工具类解析通用注解
+		 * 	 4.将bean定义信息已beanname，beandifine键值对的形式注册到ioc容器中
+		 */
 		register(annotatedClasses);
+		/**
+		 * 刷新上下文
+		 */
 		refresh();
 	}
 
