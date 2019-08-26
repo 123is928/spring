@@ -17,7 +17,6 @@ public class MyTest {
 	public void fun(){
 		AnnotationConfigApplicationContext annotationConfigApplicationContext =
 				new AnnotationConfigApplicationContext(AppConfig.class);
-		annotationConfigApplicationContext.refresh();
 		UserService service = annotationConfigApplicationContext.getBean(UserService.class);
 		service.query();
 	}
