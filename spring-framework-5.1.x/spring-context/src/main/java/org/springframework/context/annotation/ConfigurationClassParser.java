@@ -159,6 +159,13 @@ class ConfigurationClassParser {
 	}
 
 
+	/**
+	 * 1.实例化deferredImportSelectors
+	 * 2.遍历configCandidates ,进行处理.根据BeanDefinition 的类型 做不同的处理,
+	 *   一般都会调用ConfigurationClassParser#parse 进行解析
+	 * 3.处理ImportSelect
+	 * @param configCandidates
+	 */
 	public void parse(Set<BeanDefinitionHolder> configCandidates) {
 		for (BeanDefinitionHolder holder : configCandidates) {
 			BeanDefinition bd = holder.getBeanDefinition();
@@ -215,10 +222,12 @@ class ConfigurationClassParser {
 
 
 	protected void processConfigurationClass(ConfigurationClass configClass) throws IOException {
+		// 1. 判断是否应该被跳过
 		if (this.conditionEvaluator.shouldSkip(configClass.getMetadata(), ConfigurationPhase.PARSE_CONFIGURATION)) {
 			return;
 		}
 
+		// 2. 处理Imported 的情况
 		ConfigurationClass existingClass = this.configurationClasses.get(configClass);
 		if (existingClass != null) {
 			if (configClass.isImported()) {
@@ -239,10 +248,12 @@ class ConfigurationClassParser {
 		// Recursively process the configuration class and its superclass hierarchy.
 		SourceClass sourceClass = asSourceClass(configClass);
 		do {
+			// 3. 递归调用进行解析
 			sourceClass = doProcessConfigurationClass(configClass, sourceClass);
 		}
 		while (sourceClass != null);
 
+		// 4. 添加到configurationClasses中
 		this.configurationClasses.put(configClass, configClass);
 	}
 

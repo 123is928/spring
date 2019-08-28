@@ -90,7 +90,10 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
 		 */
 		this.reader = new AnnotatedBeanDefinitionReader(this);
 
-		// 在IOC容器中初始化一个 按类路径扫描注解bean的 扫描器
+		// 在IOC容器中初始化一个 按类路径扫描注解bean的 扫描器,继而被转成bd
+		// 但是实际上我们扫描包工作不是这个scanner来完成的,
+		// 是spring自己new的ClassPathBeanDefinitionScanner来扫描的
+		// 这里scanner仅仅是为了程序员能够在外部调用AnnotationConfigApplicationContext的scan()方法的
 		this.scanner = new ClassPathBeanDefinitionScanner(this);
 	}
 
@@ -217,6 +220,7 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
 	 * @see #register(Class...)
 	 * @see #refresh()
 	 */
+	@Override
 	public void scan(String... basePackages) {
 		Assert.notEmpty(basePackages, "At least one base package must be specified");
 		this.scanner.scan(basePackages);

@@ -60,7 +60,10 @@ final class PostProcessorRegistrationDelegate {
 
 		if (beanFactory instanceof BeanDefinitionRegistry) {
 			BeanDefinitionRegistry registry = (BeanDefinitionRegistry) beanFactory;
+			// BeanDefinitionRegistryPostProcessor继承了BeanFactoryPostProcessor,扩展了一个方法
+			// 放程序员手动添加的BeanFactoryPostProcessor
 			List<BeanFactoryPostProcessor> regularPostProcessors = new ArrayList<>();
+			// 放程序员手动添加的BeanDefinitionRegistryPostProcessor
 			List<BeanDefinitionRegistryPostProcessor> registryProcessors = new ArrayList<>();
 
 			for (BeanFactoryPostProcessor postProcessor : beanFactoryPostProcessors) {
@@ -79,20 +82,38 @@ final class PostProcessorRegistrationDelegate {
 			// uninitialized to let the bean factory post-processors apply to them!
 			// Separate between BeanDefinitionRegistryPostProcessors that implement
 			// PriorityOrdered, Ordered, and the rest.
+			// 这个currentRegistryProcessors放的是spring自己内部实现了BeanDefinitionRegistryPostProcessor接口
 			List<BeanDefinitionRegistryPostProcessor> currentRegistryProcessors = new ArrayList<>();
 
 			// First, invoke the BeanDefinitionRegistryPostProcessors that implement PriorityOrdered.
+			// BeanDefinitionRegistryPostProcessor等于BeanFactoryPostProcessor
 			String[] postProcessorNames =
 					beanFactory.getBeanNamesForType(BeanDefinitionRegistryPostProcessor.class, true, false);
+
+			// 这个地方可以得到一个BeanFactoryPostProcessor,因为spring默认在最开始为自己注册的
+			// 为什么要在最开始注册这个呢?
+			// 因为spring的工厂需要去解析去扫描等等功能
+			// 而这些功能都是需要spring工厂初始化完成之前执行
+			// 要么在工厂最开始的时候,要么在工厂初始化之后,反正不能再之后
+			// 因为如果在之后那就没有意义了,因为那时候已经要使用工厂了,
+			// 所以这里spring在一开始就注册了一个BeanFactoryPostProcessor,用来插手spring的BeanFactory的实现
+			//在这个地方断点可以知道这个类叫做ConfigurationClassPostProcessor
+			// ConfigurationClassPostProcessor这个类能干嘛呢?可以看源码
+			// 下面对这个牛逼哄哄的类重点解释
 			for (String ppName : postProcessorNames) {
 				if (beanFactory.isTypeMatch(ppName, PriorityOrdered.class)) {
 					currentRegistryProcessors.add(beanFactory.getBean(ppName, BeanDefinitionRegistryPostProcessor.class));
 					processedBeans.add(ppName);
 				}
 			}
+			// 排序不重要
 			sortPostProcessors(currentRegistryProcessors, beanFactory);
+			// 合并list不重要
 			registryProcessors.addAll(currentRegistryProcessors);
+			// 最重要的是这里
+			// =============重要=====================
 			invokeBeanDefinitionRegistryPostProcessors(currentRegistryProcessors, registry);
+			// 这个list是一个临时变量,所以要清除
 			currentRegistryProcessors.clear();
 
 			// Next, invoke the BeanDefinitionRegistryPostProcessors that implement Ordered.
