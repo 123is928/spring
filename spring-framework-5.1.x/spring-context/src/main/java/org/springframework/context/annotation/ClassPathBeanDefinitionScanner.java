@@ -278,6 +278,7 @@ public class ClassPathBeanDefinitionScanner extends ClassPathScanningCandidateCo
 		Set<BeanDefinitionHolder> beanDefinitions = new LinkedHashSet<>();
 		for (String basePackage : basePackages) {
 			// 扫描basePackage路径下的java文件
+			// ========findCandidateComponents(basePackage)这里使用asm技术,将传入的包名下的我们需要的类转出BeanDefinition=====================
 			Set<BeanDefinition> candidates = findCandidateComponents(basePackage);
 			for (BeanDefinition candidate : candidates) {
 				// 解析scope属性
