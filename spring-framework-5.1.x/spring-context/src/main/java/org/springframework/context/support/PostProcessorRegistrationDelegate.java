@@ -293,6 +293,7 @@ final class PostProcessorRegistrationDelegate {
 			Collection<? extends BeanDefinitionRegistryPostProcessor> postProcessors, BeanDefinitionRegistry registry) {
 
 		for (BeanDefinitionRegistryPostProcessor postProcessor : postProcessors) {
+			// ========================进去====================
 			postProcessor.postProcessBeanDefinitionRegistry(registry);
 		}
 	}

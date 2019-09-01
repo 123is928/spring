@@ -126,7 +126,7 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
 		 * 	 1.根据bean配置类，使用BeanDefinition解析Bean的定义信息，主要是一些注解信息
 		 * 	 2.Bean作用域的处理，默认缺少@Scope注解，解析成单例
 		 * 	 3.借助AnnotationConfigUtils工具类解析通用注解
-		 * 	 4.将bean定义信息已beanname，beandifine键值对的形式注册到ioc容器中
+		 * 	 4.将bean定义信息已beanName，BeanDefinition键值对的形式注册到ioc容器中
 		 */
 		register(annotatedClasses);
 		/**

@@ -138,6 +138,12 @@ public abstract class AnnotationConfigUtils {
 	}
 
 	/**
+	 * 在注册列表中注册所有spring内置的后置处理器包括5个
+	 * 1. internalConfigurationAnnotationProcessor	最重要
+	 * 2. internalAutowiredAnnotationProcessor
+	 * 3. internalCommonAnnotationProcessor
+	 * 4. internalEventListenerProcessor
+	 * 5. internalEventListenerFactory
 	 * Register all relevant annotation post processors in the given registry.
 	 * @param registry the registry to operate on
 	 * @param source the configuration source element (already extracted)
@@ -167,6 +173,7 @@ public abstract class AnnotationConfigUtils {
 			// 而BeanDefinitionRegistryProcessor最终实现BeanFactoryPostProcessor接口
 			RootBeanDefinition def = new RootBeanDefinition(ConfigurationClassPostProcessor.class);
 			def.setSource(source);
+			// =======================进去======================
 			beanDefs.add(registerPostProcessor(registry, def, CONFIGURATION_ANNOTATION_PROCESSOR_BEAN_NAME));
 		}
 
