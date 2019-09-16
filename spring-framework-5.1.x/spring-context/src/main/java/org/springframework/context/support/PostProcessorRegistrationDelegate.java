@@ -113,6 +113,7 @@ final class PostProcessorRegistrationDelegate {
 			// 最重要的是这里
 			// =============重要=====================
 			invokeBeanDefinitionRegistryPostProcessors(currentRegistryProcessors, registry);
+
 			// 这个list是一个临时变量,所以要清除
 			currentRegistryProcessors.clear();
 
