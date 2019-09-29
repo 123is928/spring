@@ -138,7 +138,7 @@ public abstract class AnnotationConfigUtils {
 	}
 
 	/**
-	 * 在注册列表中注册所有spring内置的后置处理器包括5个
+	 * 向指定的注册列表中注册所有spring内置的后置处理器包括5个
 	 * 1. internalConfigurationAnnotationProcessor	最重要
 	 * 2. internalAutowiredAnnotationProcessor
 	 * 3. internalCommonAnnotationProcessor
