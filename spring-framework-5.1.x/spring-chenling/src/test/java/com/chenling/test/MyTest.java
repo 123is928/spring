@@ -1,7 +1,7 @@
 package com.chenling.test;
 
 import com.chenling.app.AppConfig;
-import com.chenling.service.UserService;
+import com.chenling.dao.UserDao;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -17,7 +17,8 @@ public class MyTest {
 	public void fun(){
 		AnnotationConfigApplicationContext annotationConfigApplicationContext =
 				new AnnotationConfigApplicationContext(AppConfig.class);
-		UserService service = annotationConfigApplicationContext.getBean(UserService.class);
-		service.query();
+		UserDao dao = annotationConfigApplicationContext.getBean(UserDao.class);
+		System.out.println(dao);
+		System.out.println("-------------------------------");
 	}
 }
